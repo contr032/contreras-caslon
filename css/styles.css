@@ -1,0 +1,440 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+h1{
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 150px;
+  }
+
+
+
+Body {
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #AACDDD;
+  }
+
+h3 {
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 400;
+  font-style: italic;
+  text-align: right;
+  }
+
+.s1 {
+  font-size: 15px;
+}
+
+.s2{
+  transform: rotate(22.5deg);
+  font-size: 25px;
+}
+
+.s3{
+  transform: rotate(45deg);
+  font-size: 35px;
+}
+
+.s4{
+  transform: rotate(67.5deg);
+  font-size: 45px;
+}
+
+.s5{
+  transform: rotate(90deg);
+  font-size: 55px;
+}
+
+.s6{
+  transform: rotate(112.5deg);
+  font-size: 65px;
+}
+
+.s7{
+  transform: rotate(135deg);
+  font-size: 75px;
+}
+
+.s8{
+  transform: rotate(157.5deg);
+  font-size: 85px;
+}
+
+.g2{
+  transform: translate(50px, -125px);
+}
+
+.g3{
+  transform: translate(100px, -250px);
+}
+
+.V1 {
+  transform: rotate(0.75turn);
+
+}
+
+.V2 {
+  transform: translate(20px, -200px);
+
+}
+.V3 {
+  transform: rotate(0.25turn) translate(-340px, -45px);
+}
+
+.V4 {
+  transform: rotate(0.5turn) translate(-20px, 475px);
+}
+
+.O {
+  font-size: 400px;
+}
+
+.C {
+  font-size:200px;
+  transform: translateY(-550px);
+}
+
+.R {
+  font-size:100px;
+  transform: translateY(-825px)translateX(22px);
+}
+
+.section2{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.section3{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+  @media (min-width:400px) {
+
+      img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+      }
+
+    .container  {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 70px 20px;
+        grid-auto-flow: dense;
+      }
+
+      h1 {
+        font-size: 60px;
+        letter-spacing: .08em;
+        margin-top: -.2em;
+        margin-bottom: -.5em;
+        text-align: center;
+            }
+
+  .anim-typewriter {
+  overflow: hidden;
+  max-width: 27em;
+  border-right: .2em solid white;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+
+      .item1{
+        line-height: 30px;
+
+      }
+
+      .item2 {
+        font-family: adobe-caslon-pro, serif;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 40px;
+        letter-spacing: 9px;
+        background-image: url("background.jpg");
+        background-repeat: no-repeat;
+        background-origin: padding-box;
+        background-position: .15em .7em;
+      }
+
+      .item3 {
+        font-family: adobe-caslon-pro, serif;
+        font-weight: 900;
+        font-style: normal;
+        line-height: 90px;
+        letter-spacing: 4px;
+      }
+
+      .item4{
+        margin-left: 100px;
+        margin-right: 100px;
+
+      }
+
+      .item5 {
+        line-height: 40px;
+        font-style: italic;
+      }
+      .item6 {
+        margin-top: 8em;
+        position:relative;
+        font-family: adobe-caslon-pro, serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+
+      .item7{
+        text-align: center;
+        font-family: adobe-caslon-pro, serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 35px;
+      }
+
+      .item8 {
+        font-family: adobe-caslon-pro, serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 100px;
+        text-align: center;
+        margin-right: 1em;
+
+      }
+
+      .item9{
+        font-family: adobe-caslon-pro, serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 100px;
+        text-align: center;
+      }
+
+      .item10{
+        color: white;
+        background-color: black;
+        font-family: adobe-caslon-pro, serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 100px;
+        text-align: center;
+        margin-top: -2em;
+        max-height: 550px;
+      }
+
+      .item11{
+        font-family: adobe-caslon-pro, serif;
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
+        font-size: 120px;
+        max-height: 100%;
+        margin-top:.5em;
+        }
+
+
+ @media (min-width:850px) {
+
+   h1 {
+     font-size: 120px;
+     letter-spacing: 8px;
+
+   }
+
+
+
+   .container  {
+     max-width: 1200px;
+     margin: 0 auto;
+       display: grid;
+       grid-gap: 120px 20px;
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-template-rows: 200px, 200px, 200px, 300px, 1fr, 100px, 100px,50px;
+     }
+
+     .anim-typewriter {
+       grid-column-start:1;
+       grid-column-end: 4;
+       margin-bottom: 20em;
+       max-width: 53em;
+       margin: 0 auto;
+       overflow: hidden;
+       border-right: .5em solid white;
+       white-space: nowrap;
+       margin: 0 auto;
+       letter-spacing: .15em;
+       animation:
+         typing 3.5s steps(40, end),
+         blink-caret .75s step-end infinite;
+     }
+
+
+     @keyframes typing {
+       from { width: 0 }
+       to { width: 100% }
+     }
+
+
+     @keyframes blink-caret {
+       from, to { border-color: transparent }
+       50% { border-color: white; }
+     }
+
+     .item1 {
+       grid-column-start:1;
+       grid-column-end: 3;
+       grid-row-start: 2;
+       grid-row-end: 4;
+       margin-right: 100px;
+       letter-spacing: 1px;
+       font-size: 18px;
+       margin-top: 4em;
+     }
+
+     .item2 {
+       grid-column-start: 3;
+       grid-row-start: 2;
+       font-size: 40px;
+       line-height: 45px;
+       background-position: .15em .15em;
+       margin-top: 2em;
+
+
+     }
+
+     .item3 {
+       grid-column-start: 3;
+       grid-row-start: 3;
+       font-size: 40px;
+       line-height: 45px;
+     }
+
+     .item4 {
+       grid-column-start: 1;
+       grid-column-end: 2;
+       grid-row-start: 4;
+       letter-spacing: 3px;
+       margin-left: 0px;
+     }
+
+
+     .item5 {
+       grid-column-start: 2;
+       grid-column-end: 4;
+       grid-row-start:4;
+       padding-bottom: 50px;
+     }
+
+     .item6 {
+       grid-column-start: 1;
+       grid-column-end: 4;
+       grid-row-start: 5;
+       grid-row-end: 6;
+       position:relative;
+       margin-top: 20em;
+     }
+
+     .item7 {
+       grid-column-start: 1;
+       grid-column-end: 4;
+       grid-row-start: 6;
+       margin-top: -7em;
+       margin-bottom: 7em;
+
+     }
+
+     .item8{
+       margin-top: -50px;
+       margin-right: 2em;
+       grid-row-start: 7;
+     }
+
+
+     .item9{
+       grid-column-start: 3;
+       grid-row-start: 7;
+       padding-left: 1em;
+     }
+
+     .item10 {
+       grid-column-start: 2;
+       grid-row-start: 7;
+       grid-row-end: 8;
+     }
+
+     .item11 {
+       grid-column-start: 1;
+       grid-column-end: 4;
+       grid-row-start: 8;
+       margin-top: -2em;
+     }
+
+ }
+
+*
+Adobe Caslon Pro Regular
+
+font-family: adobe-caslon-pro, serif;
+font-weight: 400;
+font-style: normal;
+
+Adobe Caslon Pro Italic
+
+font-family: adobe-caslon-pro, serif;
+font-weight: 400;
+font-style: italic;
+
+Adobe Caslon Pro Bold
+
+font-family: adobe-caslon-pro, serif;
+font-weight: 700;
+font-style: normal;
+
+Adobe Caslon Pro Bold Italic
+
+font-family: adobe-caslon-pro, serif;
+font-weight: 700;
+font-style: italic;
+
+Adobe Caslon Pro Semibold
+
+font-family: adobe-caslon-pro, serif;
+font-weight: 600;
+font-style: normal;
+
+Adobe Caslon Pro Semibold Italic
+
+font-family: adobe-caslon-pro, serif;
+font-weight: 600;
+font-style: italic;
